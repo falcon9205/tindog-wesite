@@ -1,0 +1,169 @@
+#title{
+    background-color: rgb(255, 128, 9);
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+}
+h1,h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 4rem;
+    line-height: 1;
+}
+.mid{
+    text-align: center;
+}
+.feature-h3-tag{
+   font-family:'IBM Plex Sans', sans-serif; 
+   font-size: 1.7rem;
+   font-weight: bolder;
+}
+p{
+    color:grey;
+}
+.dog1{
+    margin: 3%; 
+    width: 50%;   
+    height: 90%; 
+    transform: rotate(25deg);
+    
+    
+}
+.dog2{
+    height: 200px;
+    width: 200px;
+    margin: 7%;
+}
+.row{
+    padding-left: 3%;
+    padding-right: 3%;
+   padding-top: 1rem;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.navbar-nav{
+    font-size: 1.5rem;
+}
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-link{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.Download-button{
+    margin: 5% 2% 0
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+.fas{
+    color: rgb(255, 190, 69);
+    margin-bottom: 20px; 
+}
+.fas:hover{
+    color:  rgb(255, 128, 9); 
+}
+
+.feature-box{
+  text-align: center;
+  padding: 7%;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color: rgb(255, 190, 69);
+    color: #ffeda3;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+   background-color:rgb(255, 190, 69);
+   text-align: center;
+   padding-bottom: 2%;
+}
+.press-img{
+    width: 15%;
+    margin:20px 20px 50px;
+}
+.testimonial-image{
+    border-radius: 100px;
+    margin: 7% 7% 7% 0;
+}
+#pricing{
+    padding: 100px;
+}
+.cta{
+    background-color: rgb(255, 128, 9);
+   
+    padding: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.social{
+    text-align: center;
+   padding: 5% 0.10% 0% 0.10%;
+}
+.lasth3{
+    padding: 7% 35%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h6{
+    text-align: center;
+    color: grey;
+}
+.fab{
+    margin: 0 7px;
+}
+.far{
+    margin: 0 7px;
+}
+.last_btn{
+    margin: 0 1% 0 1%;
+}
+@media (max-width:600px)
+{
+    #title{
+        background-color: rgb(255, 63, 95);
+        text-align: center;
+    }
+    .cta{
+        background-color: rgb(255, 63, 95);
+    }
+    #press{
+        background-color: rgb(255, 63, 95);
+    }
+    #testimonials{
+        background-color: rgb(255, 63, 95);
+    }
+    .fas{
+        color: rgb(255, 93,120);
+        margin-bottom: 20px; 
+    }
+    .fas:hover{
+        color:  rgb(255, 63,95); 
+    }
+    .dog1{
+        transform: rotate(0);
+    }
+    h1{
+        font-family: 'Indie Flower', cursive;
+    }
+    h2{
+        font-family: 'Indie Flower', cursive;
+    }
+    .last_btn{
+        margin:5px 0px;
+    }
+    .lasth3{
+        padding: 0 0;
+    }
+    .testimonial-tag-h2{
+        line-height: 1;
+        font-size: larger;
+    }
+}
